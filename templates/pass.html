@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+        <script language="text/javascript">
+            var inp = document.getElementById("get-files");
+            // Access and handle the files 
+            for (i = 0; i < inp.files.length; i++) 
+            {
+                let file = inp.files[i];
+                // do things with file
+                
+            }
+        </script>
+
+        <script src="dir.php"></script>
+
+    </head>
+    <body>
+        <p id="p1" style="color:black;font-family: 'Quicksand';font-size: 100px;"> yuckrabos </p>
+        <!--input type="file" name="client-file" id="get-files" multiple /-->
+        <form enctype="multipart/form-data" action="/files" method="post">
+            <input id="image-file" type="file" />
+            <input id = "upload-file" type = "submit" />
+        </form>
+    </body>
+</html>
