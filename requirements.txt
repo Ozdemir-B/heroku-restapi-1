@@ -1,4 +1,0 @@
-flask
-gunicorn
-numpy==1.18.3
-pillow
